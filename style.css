@@ -1,0 +1,60 @@
+/* #title {
+    font-family: 'PokemonFireRedRegular';
+    font-weight: normal;
+    font-style: normal;
+    font-size:100px ;
+    text-align  : center;
+ }
+  */
+  #poketub{
+    justify-content: center;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 50%;
+     margin-top: 0px; 
+  }
+
+#dancing{
+    align-items: center; 
+    display: block; 
+    margin: auto; 
+}
+
+#logo{
+    margin: 0; 
+}
+/* #spotify{
+    margin: 0px;
+} */
+ body{
+    background-image: url("https://78.media.tumblr.com/345d54127ac111cfe1b713339ef85eea/tumblr_od0rxjIC8c1rtbl5vo1_500.gif");
+    background-size: 25px;   
+ }
+ 
+#content{ 
+    display: flex; 
+    flex-direction: row; 
+}
+ /* #why{
+    display: block;
+    margin: 10 auto;
+    width: 50%;
+ } */
+
+ p{
+    font-size: 100px;
+    font-family: 'Tangerine', cursive;
+    font-style: italic; 
+ }
+
+ @media screen and (max-width: 360px){
+    body{
+        /* background-color: chartreuse; */
+    } 
+}
+
+#spotify{
+    margin-left: 0%;
+    float: left;  
+}
