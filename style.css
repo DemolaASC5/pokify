@@ -55,6 +55,36 @@
 }
 
 #spotify{
-    margin-left: 0%;
+    margin-left: 5%;
     float: left;  
+    margin-top: 50px; 
+}
+
+#user{ 
+    margin-top: 0px; 
+    margin-bottom: 0px; 
+    display: flex; 
+    flex-direction: column; 
+}
+
+#pokemon_everything{
+    margin-top: 0px; 
+    margin-bottom: 0px; 
+    margin-left: 10%; 
+    display: flex; 
+    flex-direction: column; 
+}
+
+#pokemon_everything img{ 
+    height: 250px; 
+    width: 250px; 
+}
+
+#everything{
+    margin-top: 0px; 
+    margin-left: 10%; 
+    display: flex; 
+    flex-direction: row; 
+    align-content: center; 
+    align-self: center; 
 }
